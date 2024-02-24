@@ -1,0 +1,85 @@
+$text-primary:#008445;
+$font-large:18px;
+
+.app-header{
+    font-size: 18px;
+    .brand-logo{
+height: 70px;
+    }
+    .nav-item,.nav-link{
+        color:$text-primary;
+    }
+}
+  .text-primary{
+    color: $text-primary !important;
+  }
+  .font-large{
+    font-size: $font-large;
+  }
+  .btn-submit{
+    background: $text-primary;
+    &:hover,&:active,&:focus{
+    background: $text-primary !important;
+    }
+  }
+
+  //Login-Signup CSS 
+  .detail-container{
+    background-image: url("../images/Taxi.jpg");
+    // background: #000;
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index:1;
+    .form-container{
+      position: relative;
+      .blur-effect{
+        background:rgba(242, 243, 242, 0.85);
+        filter: blur(2px);
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+      }
+      .form-details{
+        position: absolute;
+        top:2rem;
+        z-index: 2;
+      }
+  
+    }
+
+  }
+  // Home CSS
+  .banner-container{
+    margin-bottom: 2rem;
+.banner-img{
+height: 450px;
+background-image: url("../images/sample2.jpg");
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border: none;
+border-radius: 16px;
+}  
+}
+.home-page{
+  .g-2{
+    gap: 2rem;
+  }
+}
+
+.bookings-card{
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border: none;
+}
+
+
+  
+
+  
