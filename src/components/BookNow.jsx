@@ -102,7 +102,7 @@ const BookNow = () => {
                 block
                 className="btn-submit w-50"
               >
-                Confirm
+                Book now
               </Button>
             </Form>
           </Col>

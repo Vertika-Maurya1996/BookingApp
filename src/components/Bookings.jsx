@@ -47,7 +47,7 @@ const handleClose = ()=>{
               <th style={{ width: "30%" }}>Pickup Time</th>
               <th style={{ width: "30%" }}>Amount($)</th>
               <th style={{ width: "50%" }}>Created At</th>
-              <th style={{ width: "20%" }}>Status</th>
+              <th style={{ width: "20%" }}>Actions</th>
               <th></th>
             </tr>
           </thead>
