@@ -25,10 +25,10 @@ export const confirmBooking = async(values)=>{
     }
 }
 export const getBookings = async()=>{
-    let userID = localStorage.getItem('userID')
+    // let userID = localStorage.getItem('userID')
 
     try{
-        let {data} = await api.get(`/api/getBooking/${userID}`)
+        let {data} = await api.get(`/api/getBooking`)
         return data
     }
     catch(error){

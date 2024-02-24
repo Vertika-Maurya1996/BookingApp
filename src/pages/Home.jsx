@@ -28,8 +28,8 @@ const Profile = () => {
   </Button>
       </Col>
       <Col md={2} className="g-2">
-      <Button block className="btn-submit">
-    Previous Bookings
+      <Button block className="btn-submit" >
+     Bookings
   </Button>
       </Col>
     

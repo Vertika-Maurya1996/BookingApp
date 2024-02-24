@@ -12,9 +12,16 @@ const handleChange = (e) =>{
   if(e.target.value != ""){
     setPrice(e.target.value)
   }
+  else{
+    setPrice("")
+  }
 
 }
 const handleConfirm = async()=>{
+  if(!price){
+    toast.error("No price entered")
+    return;
+  }
 let res = await priceBooking({price,bookingID})
 if(!res.status)
 {

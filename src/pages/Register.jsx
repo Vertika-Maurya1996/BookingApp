@@ -67,13 +67,15 @@ const Signup = () => {
 
   useEffect(()=>{
     if(pathname.includes("/register-driver")){
-      localStorage.setItem("userType",1)
       localStorage.removeItem('userID')
+      localStorage.setItem("userType",1)
+      formik.setFieldValue('type',1)
       setUserType(1)
     }
     else{
       localStorage.setItem("userType",2)
       localStorage.removeItem('userID')
+      formik.setFieldValue('type',2)
       setUserType(2)
     }
 

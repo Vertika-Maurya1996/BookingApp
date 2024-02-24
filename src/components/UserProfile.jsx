@@ -26,7 +26,7 @@ const UserProfile = () => {
        <h3 className="text-primary"> <b>
        Name :</b> {userInfo?.fullname}</h3>
        <h3 className="text-primary"> <b>
-       Email: </b>{userInfo?.fullname}</h3>
+       Email: </b>{userInfo?.email}</h3>
        <h3 className="text-primary"> <b>
        User ID: </b>{userInfo?._id}</h3>
        </div>

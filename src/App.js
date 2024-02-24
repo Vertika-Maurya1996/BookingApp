@@ -34,7 +34,7 @@ function App() {
           </Route>
           <Route element={<DriverRoutes/>}>
           <Route path="/home-driver" element={<HomeDriver/>}/>
-           <Route path="/profile" element={<UserProfile/>}/>
+           <Route path="/profile-driver" element={<UserProfile/>}/>
           </Route>
         </Routes>
         <ToastContainer
